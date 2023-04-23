@@ -1,0 +1,54 @@
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: pink;  
+}  
+
+.heading{
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	height: 50px;	
+	text-shadow: 1px 1px 1px white;
+}
+
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+
+.container {   
+        padding: 25px;   
+        background-color: lightblue;  
+    } 
+    
+     input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+    
+     button:hover {   
+        opacity: 0.7;   
+    }   
+    
+    button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         } 
+         
+  .sing:hover{
+   opacity: 0.7; 
+  color: green;
+  }
+  
+  .sign{
+  font-family: 'Roboto', sans-serif;
+    }
+  
+    

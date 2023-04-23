@@ -1,0 +1,153 @@
+.maindiv {
+	height: 580px;
+	width: 100%;
+	background-color: #D6EEEE;
+}
+
+headdiv {
+	text-align: center;
+	height: 100%;
+}
+
+.title {
+	text-align: center;
+	padding-top: 20px;
+	border: 3px solid green;
+	height: 60px;
+	font-family: 'Roboto', sans-serif;
+	color: red;
+	text-shadow: 1px 1px 1px black;
+	font-family: 'Roboto', sans-serif;
+	background-image:
+		url("https://amymhaddad.s3.amazonaws.com/morocco-blue.png");
+	width: 100%;
+}
+
+.tble {
+	margin-top: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 60%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+	border: 1px solid;
+}
+
+.tble td, .tble th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.tble tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.tble tr:hover {
+	background-color: #ddd;
+}
+
+.tble th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+	font-family: "Rock Salt", cursive;
+	text-shadow: 1px 1px 1px black;
+}
+
+
+
+.button1, .button2, .button3 {
+	width: 200px;
+	height: 70px;
+	border-style: none;
+	color: black;
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-family: 'Lato';
+	font-weight: 600;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	padding: 0px;
+	overflow: hidden;
+	transition: all .5s;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+	/* text-shadow: 1px 1px 1px black; */
+}
+
+.button1 {
+	width: 15%;
+	margin: 8px 0;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 2px solid green;
+	box-sizing: border-box;
+	background-color: #008CBA;
+	font-family: 'Roboto', sans-serif;
+}
+
+.button2 {
+	width: 15%;
+	margin: 8px 0;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 2px solid green;
+	box-sizing: border-box;
+	background-color: #f44336;
+	font-family: 'Roboto', sans-serif;
+}
+
+.button3 {
+	width: 15%;
+	margin: 8px 0;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 2px solid green;
+	box-sizing: border-box;
+	background-color: #e7e7e7;
+	font-family: 'Roboto', sans-serif;
+}
+
+.button1:hover, .button2:hover, .button3:hover {
+	transform: translateX(0.15em);
+}
+
+.container {
+	padding: 10px;
+	background-color: lightblue;
+}
+
+.button4,.button5 {
+      
+}
+
+
+.a{
+	align-content: left;
+}
+.button4 {
+
+	margin: 8px 0;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 2px solid green;
+	box-sizing: border-box;
+	background-color: #e7e7e7;
+	font-family: 'Roboto', sans-serif;
+}
+
+.button5 {
+	
+	margin: 8px 0;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 2px solid green;
+	box-sizing: border-box;
+	background-color: #e7e7e7;
+	font-family: 'Roboto', sans-serif;
+}
